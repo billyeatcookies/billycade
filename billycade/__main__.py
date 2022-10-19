@@ -1,1 +1,4 @@
-print("welcome to arcade!")
+from .app import *
+
+app = App()
+app.launch()
