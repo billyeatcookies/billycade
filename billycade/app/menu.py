@@ -1,6 +1,6 @@
 class Menu:
     def __init__(self, app):
-        self.items = ['Tic tac toe']
+        self.items = [('Tic tac toe', 'multiplayer'), ('Snake', 'single player')]
 
     def show(self):
         n = 0
@@ -9,4 +9,4 @@ class Menu:
         for n, i in enumerate(self.items):
             print(f"{n}.", " - ".join(i))
         
-        print(f"\n{n+1}. Exit"
+        print(f"\n{n+1}. Exit")
